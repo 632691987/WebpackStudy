@@ -1,0 +1,21 @@
+/*!********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./styles/style.css ***!
+  \********************************************************************/
+@font-face {
+    font-family: 'SupercellMagicFont';
+    src: url(cd01556810e60d510ff6.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    font-family: 'SupercellMagicFont';
+}
+
+.myclass {
+    font-size: 32px;
+    color: brown;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}

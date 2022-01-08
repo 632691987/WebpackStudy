@@ -1,0 +1,10 @@
+npm install -D webpack webpack-cli
+npm install -D http-server
+npx webpack --mode development
+npm install --save-dev style-loader css-loader
+npm install --save-dev html-webpack-plugin
+npm install --save-dev sass-loader sass
+npm install --save-dev mini-css-extract-plugin
+
+当加了webpack.config.js 以后，就可以直接打入命令 npx webpack 了
+当加了一句 build 进 package.json 以后，就可以直接打入命令 npm run build 了
